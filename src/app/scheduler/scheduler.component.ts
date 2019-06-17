@@ -175,6 +175,7 @@ export class SchedulerComponent implements AfterViewInit {
     var from = this.scheduler.control.visibleStart();
     var to = this.scheduler.control.visibleEnd();
     this.ds.getEvents(from, to).subscribe(result => {
+      console.log('getEvents',from ,to,'result',result);
       this.events = result;
     });
   }

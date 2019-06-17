@@ -4,6 +4,7 @@ import {DayPilot} from 'daypilot-pro-angular';
 import {HttpClient} from "@angular/common/http";
 import {map} from "rxjs/operators";
 
+
 @Injectable()
 export class DataService {
 
@@ -15,8 +16,8 @@ export class DataService {
     return this.http.get("http://localhost:3000/events",
     {
       params:{
-        start_like:from.toString(),
-        end_like:to.toString()
+        "start_gte":from.toString(),
+        "end_let":to.toString()
       }
     }
     ) as Observable<any>;
