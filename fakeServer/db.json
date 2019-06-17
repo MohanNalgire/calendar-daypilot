@@ -1,0 +1,143 @@
+{
+  "events": [
+    {
+      "id": "8",
+      "text": "Ms. Williams",
+      "start": "2019-06-06T18:00:00",
+      "end": "2019-06-06T19:30:00",
+      "resource": "1"
+    },
+    {
+      "id": "9",
+      "text": "Mr. Lee",
+      "start": "2019-06-06T18:00:00",
+      "end": "2019-06-06T20:00:00",
+      "resource": "3"
+    },
+    {
+      "id": "10",
+      "text": "Mr. Brown",
+      "start": "2019-06-06T17:00:00",
+      "end": "2019-06-06T19:00:00",
+      "resource": "5"
+    },
+    {
+      "start": "2019-06-17T21:45:00",
+      "end": "2019-06-17T23:15:00",
+      "resource": "1",
+      "text": "Created by mohan",
+      "id": "2WsQWmA"
+    },
+    {
+      "start": "2019-06-17T22:45:00",
+      "end": "2019-06-17T23:00:00",
+      "resource": "1",
+      "text": "Event 1",
+      "id": "PepV8DM"
+    },
+    {
+      "start": "2019-06-17T22:45:00",
+      "end": "2019-06-17T23:00:00",
+      "resource": "3",
+      "text": "Event 3",
+      "id": "4WDDVEp"
+    },
+    {
+      "start": "2019-06-17T22:45:00",
+      "end": "2019-06-17T23:00:00",
+      "resource": "3",
+      "text": "Event 1",
+      "id": "leXir8_"
+    },
+    {
+      "start": "2019-06-17T21:45:00",
+      "end": "2019-06-17T23:00:00",
+      "resource": "1",
+      "text": "Event 1",
+      "id": "30B_QuB"
+    },
+    {
+      "start": "2019-06-17T23:00:00",
+      "end": "2019-06-18T00:00:00",
+      "resource": "2",
+      "text": "Event 1",
+      "id": "RmydbX6"
+    }
+  ],
+  "resources": [
+    {
+      "id": "group_1",
+      "name": "Indoors",
+      "expanded": true,
+      "children": [
+        {
+          "id": "1",
+          "name": "Table 1",
+          "seats": "2"
+        },
+        {
+          "id": "2",
+          "name": "Table 2",
+          "seats": "3"
+        },
+        {
+          "id": "3",
+          "name": "Table 3",
+          "seats": "4"
+        },
+        {
+          "id": "4",
+          "name": "Table 4",
+          "seats": "4"
+        },
+        {
+          "id": "5",
+          "name": "Table 5",
+          "seats": "6"
+        },
+        {
+          "id": "6",
+          "name": "Table 6",
+          "seats": "6"
+        }
+      ]
+    },
+    {
+      "id": "group_2",
+      "name": "Terrace",
+      "expanded": true,
+      "children": [
+        {
+          "id": "7",
+          "name": "Table 21",
+          "seats": "2"
+        },
+        {
+          "id": "8",
+          "name": "Table 22",
+          "seats": "2"
+        },
+        {
+          "id": "9",
+          "name": "Table 23",
+          "seats": "5"
+        },
+        {
+          "id": "10",
+          "name": "Table 24",
+          "seats": "5"
+        },
+        {
+          "id": "11",
+          "name": "Table 25",
+          "seats": "6"
+        },
+        {
+          "id": "12",
+          "name": "Table 26",
+          "seats": "6"
+        }
+      ]
+    }
+  ]
+}

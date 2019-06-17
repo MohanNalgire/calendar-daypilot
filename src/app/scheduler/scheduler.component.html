@@ -1,0 +1,15 @@
+<div class="filter">
+    Filter:
+    <select (change)="seatFilterChange($event);" [(ngModel)]="seatFilter">
+      <option *ngFor="let it of seats" [ngValue]="it.value">{{it.name}}</option>          
+    </select>
+    test {{timeFilter}}
+    <span *ngIf="timeFilter" class="timefilter">
+    {{timeFilter?.start.toString("d/M/yyyy")}}
+    {{timeFilter?.start.toString("h:mm tt")}} - {{timeFilter?.end.toString("h:mm tt")}}
+    <a href="#" (click)="clearTimeFilter()" class="remove">X</a>
+    </span>
+    
+  </div>
+  {{events|json}}
+  <daypilot-scheduler [config]="config" [events]="events" #scheduler></daypilot-scheduler>
